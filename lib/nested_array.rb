@@ -33,18 +33,6 @@ matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
-  matrix = [
-   [ "Grapefruit",
-  "Pineapple",
-  "Oranges",
-  "Watermelon",
-  "Eggplant"],
-    ["Strawberries",
-  "Potatoes",
-  "Grapes",
-  "Avocadoes",
-  "Asparagus" ]
-  ]
   matrix[row][column] = new_value
   matrix 
 end
